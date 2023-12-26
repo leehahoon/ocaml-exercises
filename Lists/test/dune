@@ -12,3 +12,8 @@
  (name nthListTest)
  (libraries nthList oUnit)
  (modules nthListTest))
+
+(test
+ (name lengthListTest)
+ (libraries lengthList oUnit)
+ (modules lengthListTest))
