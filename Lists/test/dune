@@ -1,0 +1,14 @@
+(test
+ (name tailOfListTest)
+ (libraries tailOfList oUnit)
+ (modules tailOfListTest))
+
+(test
+ (name lastTwoTest)
+ (libraries lastTwo oUnit)
+ (modules lastTwoTest))
+
+(test
+ (name nthListTest)
+ (libraries nthList oUnit)
+ (modules nthListTest))

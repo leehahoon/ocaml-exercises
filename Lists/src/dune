@@ -1,0 +1,28 @@
+(library
+ (public_name Lists)
+ (name tailOfList)
+ (modules tailOfList))
+
+(library
+ (name lastTwo)
+ (modules lastTwo))
+
+(library
+ (name nthList)
+ (modules nthList))
+
+(library
+ (name lengthList)
+ (modules lengthList))
+
+(library
+ (name palindrome)
+ (modules palindrome))
+
+(library
+ (name reverseList)
+ (modules reverseList))
+
+ (library
+ (name runLengthEnc)
+ (modules runLengthEnc))
