@@ -17,3 +17,8 @@
  (name lengthListTest)
  (libraries lengthList oUnit)
  (modules lengthListTest))
+
+(test
+ (name palindromeTest)
+ (libraries palindrome oUnit)
+ (modules palindromeTest))
