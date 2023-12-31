@@ -22,3 +22,13 @@
  (name palindromeTest)
  (libraries palindrome oUnit)
  (modules palindromeTest))
+
+(test
+ (name runLengthEncTest)
+ (libraries runLengthEnc oUnit)
+ (modules runLengthEncTest))
+
+ (test
+ (name reverseListTest)
+ (libraries reverseList oUnit)
+ (modules reverseListTest))
