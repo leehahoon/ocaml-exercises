@@ -23,6 +23,18 @@
  (name reverseList)
  (modules reverseList))
 
- (library
+(library
  (name runLengthEnc)
  (modules runLengthEnc))
+
+(library
+ (name duplicate)
+ (modules duplicate))
+
+(library
+ (name splitList)
+ (modules splitList))
+
+(library
+ (name removeAt)
+ (modules removeAt))

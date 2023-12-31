@@ -28,7 +28,22 @@
  (libraries runLengthEnc oUnit)
  (modules runLengthEncTest))
 
- (test
+(test
  (name reverseListTest)
  (libraries reverseList oUnit)
  (modules reverseListTest))
+
+(test
+ (name duplicateTest)
+ (libraries duplicate oUnit)
+ (modules duplicateTest))
+
+(test
+ (name splitListTest)
+ (libraries splitList oUnit)
+ (modules splitListTest))
+
+(test
+ (name removeAtTest)
+ (libraries removeAt oUnit)
+ (modules removeAtTest))
