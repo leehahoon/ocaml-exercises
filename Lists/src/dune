@@ -38,3 +38,7 @@
 (library
  (name removeAt)
  (modules removeAt))
+
+(library
+ (name insertAt)
+ (modules insertAt))

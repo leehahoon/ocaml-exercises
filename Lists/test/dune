@@ -47,3 +47,8 @@
  (name removeAtTest)
  (libraries removeAt oUnit)
  (modules removeAtTest))
+
+(test
+ (name insertAtTest)
+ (libraries insertAt oUnit)
+ (modules insertAtTest))
